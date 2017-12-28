@@ -1,0 +1,73 @@
+/* 
+	Theme name: MyShop
+	Author Brad Traversy
+	Author URIL http://eduonix.com
+	Description :Simple ecommerce theme
+	Version: 1.0.0
+*/
+
+a{
+	color: #ec2c2f;
+}
+
+a:hover{
+	color: #333;
+}
+
+.button{
+	background:#ec2c2f;
+	border-bottom: 3px #333 solid;
+}
+
+.button:hover{
+	background:#333;
+}
+
+header .main-nav{
+	float:right;
+	margin-top: 30px;
+	font-size: 18px;
+}
+
+header .main-nav li{
+	padding-right:20px;
+}
+
+header{
+	margin-bottom: 20px;
+}
+
+.showcase .callout{
+	text-align: center;
+	padding: 30px;
+	margin-bottom: 20px;
+}
+
+.products .columns{
+	margin-bottom: 40px;
+}
+
+.product{
+	text-align: center;
+}
+
+.product .button{
+	margin-top: 10px;
+}
+
+.vertical li{
+	border-bottom: 1px #ccc solid;
+}
+
+.vertical li:last-child{
+	border-bottom: none;
+}
+
+footer{
+	background: #333;
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+	padding-top: 20px;
+	height: 70px;
+}
