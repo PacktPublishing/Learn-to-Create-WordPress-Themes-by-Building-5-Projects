@@ -1,0 +1,39 @@
+/*
+      Theme Name: Wordstrap
+      Author: Brad Traversy
+      Author URI: http://eduonix.com
+      Description: Simple Bootstrap Theme For Wordpress
+      Version: 1.0
+*/
+
+article.post img{
+	width:100%;
+	height:auto;
+	margin-top:30px;
+}
+
+article.post{
+    border-bottom: #ccc solid 1px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+article.post:last-child{
+	border-bottom:none;
+}
+
+article.post .meta{
+	background: #f4f4f4;
+	padding: 8px 12px;
+	color: #333;
+}
+
+.comment-list{
+    list-style: none;
+    margin:0 !important;
+    padding:0 !important;
+}
+
+.comment-item{
+    overflow:auto;
+}
